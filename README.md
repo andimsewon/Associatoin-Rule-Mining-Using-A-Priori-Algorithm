@@ -59,14 +59,6 @@ Example (`playtennis.csv`):
 | Sunny   | Hot         | High     | Weak | No         |
 | Overcast| Hot         | High     | Strong| Yes       |
 
-### Running the Code
-
-Run the script from the command line, passing the path to the CSV file as an argument:
-
-```bash
-python aPriori.py playtennis.csv
-
-
 ## Output
 The Decision tree is printed in an if-then format. For example:
 
@@ -75,3 +67,13 @@ IF Outlook == Sunny AND Humidity == Normal THEN Yes
 IF Outlook == Overcast THEN Yes
 IF Outlook == Rain AND Wind == Weak THEN Yes
 IF Outlook == Rain AND Wind == Strong THEN No
+
+### Running the Code
+
+Run the script from the command line, passing the path to the CSV file as an argument:
+
+```bash
+python aPriori.py playtennis.csv
+
+
+
